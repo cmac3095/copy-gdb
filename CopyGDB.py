@@ -14,7 +14,7 @@ def deleteanything(src):
         elif (os.path.isfile(src)):
             os.remove(src)
     except:
-        arcpy.AddError("Error removing " + src)
+        arcpy.AddMessage("Error removing " + src)
         
 def make_sure_dir_exists(path):
     try:
