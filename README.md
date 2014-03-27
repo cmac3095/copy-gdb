@@ -5,4 +5,6 @@ Python script to copy one ESRI GDB to a File Geodatabase. I took a sample (I thi
 
 What I (ultimately) wanted was to be able to export the content of an Enterprise GDB to a file gdb so's I could copy the content onto a USB stick (or similar) for when I was travelling.
 
+Note: This script works with sqlite3 GDBs. I have tested it against arcpy version 10.2.1
+
 Refer to [Copy Management](http://help.arcgis.com/en/arcgisdesktop/10.0/help/index.html#//001700000035000000) GP Tool for more information.
